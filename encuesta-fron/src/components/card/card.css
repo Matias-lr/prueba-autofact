@@ -1,0 +1,33 @@
+.Card{
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 1rem 2rem 2rem 2rem;
+    min-height: 20em;
+    min-width: 20em;
+    border-radius: 47px;
+    background: linear-gradient(145deg, #e5e4e4, #c1c0c0);
+    box-shadow:  8px 8px 25px #9c9b9b, 
+                 -8px -8px 25px #ffffff;
+}
+.Card .Card-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(105, 105, 105);
+    height: 10%;
+    border-radius: 47px;
+}
+.Card  .Card-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    height: 80%;
+    align-content: flex-start;
+}
